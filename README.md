@@ -13,6 +13,46 @@ Using ARIMA learning tool, input stock price data and create short-term predicti
 * [holoview](https://holoviews.org/) - open-source Python library designed to make data analysis and visualization
 * [pmdarima](https://pypi.org/project/pmdarima/) - statistical library designed to fill the void in Python's time series analysis capabilities
 
+## Installation Guide
+Before running the application first install the following dependencies:
+
+```python
+import pandas as pd
+import yfinance as yf
+from scipy.stats import norm
+from matplotlib import pyplot as plt
+import sklearn
+from pathlib import Path
+import csv
+from prophet import Prophet
+
+import numpy as np
+import hvplot.pandas
+import holoviews as hv
+from holoviews import opts
+hv.extension('bokeh')
+
+from pandas.plotting import autocorrelation_plot
+from statsmodels.tsa.arima.model import ARIMA
+from pmdarima.arima import auto_arima
+from statsmodels.graphics.tsaplots import plot_pacf
+from statsmodels.tsa.stattools import adfuller
+from statsmodels.graphics.tsaplots import plot_acf
+from pmdarima.arima.utils import ndiffs
+
+
+
+
+
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.tsa.seasonal import seasonal_decompose 
+from pmdarima import auto_arima 
+from pandas import DataFrame
+from math import sqrt
+from statsmodels.graphics.tsaplots import plot_predict
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+
+```
 
 ## Contributors
-Sungmoo Ban, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera, Morgan Blackmore
+Sungmoo Ban, Morgan Blackmore, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
