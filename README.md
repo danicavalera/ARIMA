@@ -50,5 +50,11 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 ```
 
+## Usage
+ 
+## Conclusion
+
+## Next Steps
+
 ## Contributors
 Sungmoo Ban, Morgan Blackmore, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
