@@ -11,7 +11,7 @@ Using ARIMA learning tool, input stock price data and create short-term predicti
 * [numpy](https://numpy.org/) - fundamental package for scientific computing with Python
 * [hvplot](https://hvplot.holoviz.org/) - high-level plotting API for the PyData ecosystem built on HoloViews
 * [holoview](https://holoviews.org/) - open-source Python library designed to make data analysis and visualization
-* [pmdarima] (https://pypi.org/project/pmdarima/) - statistical library designed to fill the void in Python's time series analysis capabilities
+* [pmdarima](https://pypi.org/project/pmdarima/) - statistical library designed to fill the void in Python's time series analysis capabilities
 
 
 ## Contributors
