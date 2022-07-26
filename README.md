@@ -40,10 +40,6 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.graphics.tsaplots import plot_acf
 from pmdarima.arima.utils import ndiffs
 
-
-
-
-
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.seasonal import seasonal_decompose 
 from pmdarima import auto_arima 
