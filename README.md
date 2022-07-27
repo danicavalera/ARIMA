@@ -62,13 +62,9 @@ Accuracy Score (Prophet vs ARIMA)
 ![pic](pic2.png)
 
 
-```
-
 ## Contributors
 Sungmoo Ban, Morgan Blackmore, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
 
-
-```
 
 ## License
 MIT License
