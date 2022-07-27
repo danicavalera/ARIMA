@@ -61,8 +61,25 @@ ARIMA Model summary
 ARIMA MSFT Projections
 ![pic](pic1.png)
 
-Accuracy Score (Prophet vs ARIMA)
+## Conclusion
+We tested our models using 4 testing methods: 
+* MSE (Mean Squared Error): When a model has no error, the MSE equals zero. As model error increases, its value increases.
+* MAE (Mean Average Error): The average over the verification sample of the absolute values of the differences between forecast and the corresponding observation.
+* RMSE (Root Mean Square Error): Represents the square root of the variance of the residuals.
+it gives us an idea of the average distance between the observed data values and the predicted data values.
+* MAPS (Mean Average Percentage Error): Expresses accuracy as a percentage of the error.
+
+Overall, all 4 statistical testing methods shows better performance then Prophet model.
+### Accuracy Score (Prophet vs ARIMA)
 ![pic](pic2.png)
+
+## Next Steps
+* Perform backtesting and compare models
+* Consider other models to compare (neural network etc)
+* Consider adding other factors - social media mentions, economy, sentiment, etc
+* Consider comparing with seasoned trader
+* Make program user friendly
+* Build AWS bot for better user experience
 
 
 ## Contributors
