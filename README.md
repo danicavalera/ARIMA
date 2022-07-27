@@ -51,10 +51,24 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 ```
 
 ## Usage
- 
-## Conclusion
+To run the program, simply clone the repository, and go through the written steps in the *.ipynb file.
 
-## Next Steps
+Screenshots:
+
+ARIMA MSFT Projections
+![pic](pic1.png)
+
+Accuracy Score (Prophet vs ARIMA)
+![pic](pic2.png)
+
+
+```
 
 ## Contributors
 Sungmoo Ban, Morgan Blackmore, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
+
+
+```
+
+## License
+MIT License
