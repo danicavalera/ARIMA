@@ -53,7 +53,9 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 ## Usage
 To run the program, simply clone the repository, and go through the written steps in the *.ipynb file.
 
-Screenshots:
+Results Screenshots:
+ARIMA Model summary
+![pic](pic3.png)
 
 ARIMA MSFT Projections
 ![pic](pic1.png)
