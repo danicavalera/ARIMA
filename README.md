@@ -69,7 +69,7 @@ We tested our models using 4 testing methods:
 it gives us an idea of the average distance between the observed data values and the predicted data values.
 * MAPS (Mean Average Percentage Error): Expresses accuracy as a percentage of the error.
 
-Overall, all 4 statistical testing methods shows better performance then Prophet model.
+Overall, all 4 statistical testing methods shows that ARIMA has better performance than Prophet model.
 ### Accuracy Score (Prophet vs ARIMA)
 ![pic](pic2.png)
 
